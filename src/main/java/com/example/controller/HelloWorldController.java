@@ -11,7 +11,7 @@ public class HelloWorldController {
     @RequestMapping(value = "/helloworld", method = RequestMethod.GET)
     public String helloWorld(Model model) {
         model.addAttribute("message", "Hello World!!");
-        return "helloworld1";
+        return "helloworld3";
     }
     
     @RequestMapping(value = "/", method = RequestMethod.GET)
